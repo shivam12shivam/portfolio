@@ -1,0 +1,311 @@
+.navbar {
+    background-color: #183d56;
+}
+
+.nav-item {
+    position: relative;
+    left: 69rem;
+    font-family: 'Belanosima', sans-serif;
+}
+
+.navbar-brand {
+    position: relative;
+    left: 27px;
+    color: rgb(30, 3, 3);
+    font-size: 1.8rem;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand::after {
+    content: '';
+    color: #fff !important;
+    width: 0;
+    height: 3px;
+    background-color: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.navbar-brand:hover::after {
+    color: #fff !important;
+    width: 100%;
+}
+
+nav a:hover {
+    color: #fff !important;
+}
+
+nav ul li a:hover {
+    color: #fff !important;
+    background-color: rgb(255, 5, 5);
+    transition: 0.5s;
+}
+
+#container {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 42rem;
+}
+
+.cont-info {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    top: 15rem;
+    right: 32rem;
+    animation: forwards;
+}
+
+.cont-p {
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.name {
+    color: red;
+}
+
+img {
+    height: 2.4rem;
+}
+
+.icons {
+    position: relative;
+    top: 5rem;
+}
+
+.picture{
+    display: flex;
+    position: relative;
+    margin-left: 60rem;
+    bottom: 12.85rem;
+    height: auto;
+}
+.my-pic{
+    height: 40rem;
+    width: auto;
+}
+
+#container span {
+    margin-left: 5px;
+    margin-right: 4px;
+}
+
+.fade-in {
+    opacity: 0;
+    /* Set initial opacity to 0 */
+    animation: fadeIn 2s ease-in forwards;
+    /* Apply the fadeIn animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        /* Start with opacity 0 */
+    }
+
+    to {
+        opacity: 1;
+        /* Transition to opacity 1 */
+    }
+}
+
+.extra {
+    height: 2.8rem;
+    position: relative;
+    bottom: .2rem;
+}
+
+.extra-1 {
+    height: 2.75rem;
+}
+
+.in{
+    position: relative;
+    top: 7.4rem;
+    right: 3rem;
+}
+.li-im{
+    border-radius: 16%;
+}
+.git{
+    position: relative;
+    top: 7.37rem;
+}
+
+#about-me {
+    height: 46rem;
+    background-color: #0f293a
+}
+
+.about-me-h {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    display: inline-flexbox;
+    align-items: center;
+    text-align: center;
+}
+
+#about-me img {
+    height: 12rem;
+    border-radius: 100%;
+    position: relative;
+    left: 39rem;
+    top: 4rem;
+
+}
+
+.about-text {
+    width: 69rem;
+    font-size: 1.4rem;
+    color: white;
+    position: relative;
+    text-align: center;
+    left: 13rem;
+    top: 12rem;
+}
+
+.about-h4 {
+    position: relative;
+    text-align: center;
+    top: 6.4rem;
+    color: rgb(0, 255, 195);
+    font-size: 2rem;
+}
+
+
+#middle {
+    height: 64rem;
+    background-image: url(1.jpg);
+    /* background-color: rgb(47, 48, 65); */
+    font-family: 'Lobster', cursive;
+    line-height: 2rem;
+}
+
+.mid-tit {
+    position: relative;
+    text-align: center;
+    top: 2rem;
+}
+
+.mid-tit-h {
+    font-size: 3.6rem;
+    color: rgb(45, 187, 197);
+}
+
+.plazi-div {
+    padding-top: 6.6rem;
+    padding-left: 21px;
+}
+
+.plazi {
+    height: 20rem;
+    width: 39rem;
+}
+
+.plazi-cont {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 15rem;
+    margin-left: 40rem;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 6px;
+}
+
+.proj-font {
+    font-size: 3.6rem;
+    letter-spacing: 12px;
+    font-weight: bolder;
+    color: #ff0000;
+}
+
+.todo-pic {
+    display: inline-flex;
+    text-align: end;
+    position: relative;
+    padding-left: 54rem;
+}
+
+.to-do-pic {
+    height: 19rem;
+    width: 39rem;
+}
+
+.todo-cont {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 15rem;
+    right: 25rem;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 6px;
+}
+
+.todo-font {
+    font-size: 3.6rem;
+    letter-spacing: 9px;
+    font-weight: bolder;
+    color: #ff0000;
+}
+
+#contact {
+    background-color: #0f293a;
+    height: min-content;
+    padding: 9rem;
+}
+
+#contact form {
+    max-width: 57rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact form .input-box {
+    display: flex;
+    /* justify-content: space-between;
+    flex-wrap: wrap; */
+
+}
+
+.col {
+    margin: 2px 4px;
+}
+
+.contact-i {
+    color: #fff;
+    position: relative;
+    padding-left: 28.2rem;
+    bottom: 9rem;
+}
+
+.btn {
+    font-size: 1.5rem;
+    position: relative;
+    top: 1rem;
+}
+
+.inp {
+    background-color: rgb(205, 228, 167)
+}
+
+input[type=number]:focus {
+    background-color: rgb(162, 239, 253);
+}
+
+input[type=text]:focus {
+    background-color: rgb(162, 239, 253);
+}
+
+textarea[type=text]:focus {
+    background-color: rgb(162, 239, 253);
+}
